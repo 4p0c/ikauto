@@ -3,8 +3,10 @@
 
 import requests
 import urllib
+user = raw_input("Usuário: ")
+passw = raw_input("Senha: ")
 
-dados = {'name': 'usuario', 'password': 'senha'}
+dados = {'name': user, 'password': passw}
 
 r = requests.post("http://s37-br.ikariam.gameforge.com/index.php?action=loginAvatar&function=login", data=dados)
 texto = r.text
