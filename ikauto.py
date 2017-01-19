@@ -4,7 +4,7 @@
 import requests
 import urllib
 
-dados = {'name': 'Olha o rodo', 'password': '180249rfl'}
+dados = {'name': 'usuario', 'password': 'senha'}
 
 r = requests.post("http://s37-br.ikariam.gameforge.com/index.php?action=loginAvatar&function=login", data=dados)
 texto = r.text
