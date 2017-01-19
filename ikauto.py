@@ -2,7 +2,7 @@
 # -*- coding: utf8 -*-
 
 import requests
-import urllib
+
 user = raw_input("Usuário: ")
 passw = raw_input("Senha: ")
 
