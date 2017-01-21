@@ -1,6 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
 
+__author__ = "Apoc"
+__credits__ = "Rodrigo Lp"
+__version__ = "1.0.0"
+__email__ = "4p0c@protonmail.ch"
+
 import requests
 
 from Tkinter import *
@@ -84,6 +89,7 @@ class Layout:
 			nome5 = tmp5[1].strip()
 			total5 = nome5.split('</td>')
 			tf5 = "Enxofre:"+total5[0]
+
 			self.msg["text"] = tf+'\n'+tf2+'\n'+tf3+'\n'+tf4+'\n'+tf5
 		recursos()
 
